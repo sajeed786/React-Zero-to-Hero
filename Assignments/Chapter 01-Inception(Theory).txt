@@ -1,0 +1,51 @@
+1. What is Emmet?
+
+Ans: It is a free extension/ add-on that is available in popular code editors which allows usage of shortcuts that can be expanded into full code statements. 
+It helps save time by reduction in keystrokes and also through its code completion feature. It supports markup and stylesheet languages (html, css) and also JSX. 
+
+2. Difference between a Library and a Framework?
+
+Ans: A library is a collection of user-defined functions and classes to make the developer's work easier by enhancing reusability in other applications.
+A framework on the other hand is a collection of a lot of libraries, APIs, tools, support programs etc. that helps in laying the foundation upon which
+applications are built for specific platforms. Framework's are extensible that helps to incorporate app-specific features without modifying the framework's
+source code. But it is difficult to replace a framework where as a library can be easily replaceable with another one.
+Libraries - React, Jquery
+Frameworks - Angular, Vue, Spring 
+
+3. What is CDN? Why do we use it?
+
+Ans: A CDN which stands for content delivery network is a group of geographically distributed servers that speed up the delivery of web content by bringing it closer to where users are.
+CDNs very efficiently cache content like web pages, images, and video in proxy servers(distributed across the network) near to a user's physical location. This solves the problem of network 
+congestion That's why we use it to access the content without having to wait for it to load which is possible because of the efficient caching. 
+
+4.Why is React known as React?
+
+Ans: React is called React because it was built with one of the reasons being to more effectively change what the user sees at an event of clicking or typing.
+That is essentially to effectively update the user interface (web browser's DOM) at the response of such events.
+
+5. what is crossorigin in script tag?
+
+Ans: It is required to for HTTP CORS request that is to fetch resources(such as images, iframes, scripts) from another domain
+
+6. What is difference between React and ReactDom?
+
+Ans: React - responsible for creating user interface views basically composed of the standard UI elements (ex- React.createElement())
+ReactDOM - library responsible for rendering the UI components created using React to browser DOM. (ReactDom.createRoot().render())
+
+7. What is difference between react.development.js and react.production.js files via CDN?
+
+Ans: react.development.js is the development build used for development purposes as the name suggests and allows for debugging, HMR(Hot Module Reloading) etc.
+react.production.js is a production specific build and hence tries to build the source files into one or multiple minified files that are less readable (void of whitespaces).
+
+8. What is async and defer?
+
+Ans: 
+Async
+- Downloads in the background at a low priority (same as defer)
+- Can interrupt page rendering as soon as it is ready to execute
+- Executes as soon as possible and in no particular order
+
+Defer
+- Downloads in the background at a low priority (same as async)
+- Doesn't interrupt page rendering so as to execute
+- Executes in sequence after the initial loading process & just before the "DOMContentLoaded" event
